@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Stats from "./components/Stats";
 import ScanCard from "./components/ScanCard";
 import History from "./components/History.jsx";
-
+import Weather from "./components/Weather.jsx";
 function App() {
   return (
     <div>
@@ -12,6 +12,7 @@ function App() {
       <main>
         <Hero />
         <Stats />
+        <Weather />
         <ScanCard />
         <History />
       </main>
